@@ -4,19 +4,63 @@
     font-family: ;
     background-color: #E5E5E5;
 }
+.header {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 31px;
+}
 .logo img{
+
     width:29.33px;
     height:44px;
-    left:29.33px;
+    margin-left:29.33px;
 }
-.logo_text{
+.logo_text {
+    width:199px;
+    height:27px;
+    margin-top: 8.5px;
+    /*margin-left: 37.33px;*/
+    margin-left: 8px;
     color:#212B31;
-    font-family: 'Inter';
-    font-style: 'Regular'; 
+    font-family: Inter;
+    font-style: Regular; 
     font-size: 22px;
-    line-height:  27px;
-    line-height:  100%;
+    line-height:26.63px;
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
 /*text-align: left;*/
 /*vertical-align: top;*/
+}
+.header, .header div, .header ul, .header button {
+    display: flex;
+    position: relative;
+}
+.tabs {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color:#72787D;
+    font-family: Inter;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-left: 22px;
+}
 
+.button_demo {
+    background-color:#212B31;
+    border: 1px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 0px #000000;
+    padding: 9px 20px 9px 20px;
+    width: 143px;
+    height:34px;
+    
+    color:#E5E5E5;
+    font-size: 15px;
+    font-family: Arial;
+    font-style: Regular;
+    text-align: center;
+    /*vertical-align: top;*/
 }
