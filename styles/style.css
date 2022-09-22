@@ -1,7 +1,16 @@
+@font-face { 
+    font-family: "InterRegular";
+    src: url("../fonts/InterRegular/InterRegular.eot");
+    src: url("../fonts/InterRegular/InterRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InterRegular/InterRegular.woff") format("woff"),
+    url("../fonts/InterRegular/InterRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family: "InterRegular";
     background-color: #E5E5E5;
 }
 .header {
@@ -16,36 +25,42 @@
     margin-left:29.33px;
 }
 .logo_text {
-    width:199px;
-    height:27px;
-    margin-top: 8.5px;
-    /*margin-left: 37.33px;*/
-    margin-left: 8px;
+    /*width:199px;
+    height:27px;*/
     color:#212B31;
-    font-family: Inter;
-    font-style: Regular; 
+    font-family: 'Inter', sans-serif;
+    margin-top: 8.5px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-weight: 400;
+
     font-size: 22px;
     line-height:26.63px;
-    /*text-decoration: none;*/
-    /*display: inline-block;*/
-/*text-align: left;*/
-/*vertical-align: top;*/
+    vertical-align: top;
+
 }
 .header, .header div, .header ul, .header button {
     display: flex;
     position: relative;
+    
+
+}
+.header ul {
+    margin-left:  130px;
+    margin-right:  22px;
 }
 .tabs {
     display: inline-block;
     list-style: none;
     text-decoration: none;
     color:#72787D;
-    font-family: Inter;
-    font-style: Regular;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 19.36px;
     margin-left: 22px;
+
+    margin-top: 7.4px;
 }
 
 .button_demo {
@@ -59,8 +74,16 @@
     
     color:#E5E5E5;
     font-size: 15px;
-    font-family: Arial;
-    font-style: Regular;
+    font-family: 'Arial';
     text-align: center;
+    font-weight: 400;
+    margin-right: 31px;
+    /*margin-left: 31px;*/
     /*vertical-align: top;*/
+   /* vertical-align: top;*/
 }
+/*
+.header .left_tabs {
+margin-left: 31px;
+display: flex;
+}*/
