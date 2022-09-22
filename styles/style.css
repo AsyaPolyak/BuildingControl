@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+    background-color: #E5E5E5;
+}
+.logo img{
+    width:29.33px;
+    height:44px;
+    left:29.33px;
+}
+.logo_text{
+    color:#212B31;
+    font-family: 'Inter';
+    font-style: 'Regular'; 
+    font-size: 22px;
+    line-height:  27px;
+    line-height:  100%;
+/*text-align: left;*/
+/*vertical-align: top;*/
+
+}
