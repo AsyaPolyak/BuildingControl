@@ -11,11 +11,19 @@
     margin: 0;
     padding: 0;
     font-family: "InterRegular";
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
+/*
+.section_1 {
+    width: 888px;
+    height: 1440;
+}
+*/
 .header {
     margin-top: 26px;
     margin-bottom: 26px;
+    
+
     margin-left: 31px;
 }
 .logo img{
@@ -23,11 +31,10 @@
     width:29.33px;
     height:44px;
     margin-left:29.33px;
-   /* margin-top: 7.4px; */
+
 }
 .logo_text {
-    /*width:199px;
-    height:27px;*/
+
     color:#212B31;
     font-family: 'Inter', sans-serif;
     margin-top: 8.5px;
@@ -43,8 +50,6 @@
 .header, .header div, .header ul, .header button {
     display: flex;
     position: relative;
-    
-
 }
 .header ul {
     margin-left:  130px;
@@ -83,16 +88,9 @@
     font-weight: 400;
    
     margin-top: 7.4px;
-    
-    /*margin-left: 31px;*/
-    /*vertical-align: top;*/
-   /* vertical-align: top;*/
+
 }
-/*
-.header .left_tabs {
-margin-left: 31px;
-display: flex;
-}*/
+
 .title {
     width:818px;
     height:128px;
@@ -119,7 +117,7 @@ display: flex;
 }
 .button_demo_1{
     width: 166px;
-    height: 50px;
+    height: 48px;
     background-color:#212B31;
     border: 1px;
     border-radius: 4px;
@@ -140,7 +138,26 @@ display: flex;
 
     width: 149px;
     height: 50px;
-   /* margin-left: 182px;*/
+    border-radius:4px;
+    padding: 13px 25px 13px 25px;
+    background-color:#FFFFFF;
+    border: 1px solid #DADEDF;
 
-    /*justify-content: center;*/
+    color: #212B31;
+    font-family:  'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    margin-left: 16px;
+}
+
+.pictures_rectangle {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
 }
