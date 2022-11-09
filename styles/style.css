@@ -1,3 +1,4 @@
+
 *,*::before,*::after {
     box-sizing: border-box;
 }
@@ -16,18 +17,20 @@
     font-family: "InterRegular";
     background-color: #FFFFFF;
 }
-/*
+
 .section_1 {
-    width: 888px;
-    height: 1440;
+    display: flex;
+    /*width: 888px;
+    height: 1440;*/
+    justify-content: center;
+    flex-direction: column;
 }
-*/
+
 .header {
     margin-top: 26px;
+    margin-left: 31px;
     margin-bottom: 26px;
     
-
-    margin-left: 31px;
 }
 .logo img{
 
@@ -48,6 +51,7 @@
     font-size: 22px;
     line-height:26.63px;
     vertical-align: top;
+
 
 }
 .header, .header div, .header ul, .header button {
@@ -78,7 +82,7 @@
     border-radius: 4px;
     box-shadow: 0px 2px 3px 0px #000000;
     padding: 9px 20px 9px 20px;
-    width: 143px;
+    width: 150px;
     height:34px;
     
     margin-right: 31px;
@@ -94,15 +98,31 @@
 
 }
 .section_2{
-flex-direction: row;
+
 
 
 }
+main{
+    /*flex-direction: row;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-bottom: 30px;
+    justify-content: center;*/
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    display: flex;
+
+    /*height:400px;*/
+}
 .title {
-    width:818px;
-    height:128px;
+    width:850px;
+    height:150px;
     margin-top:74px;
-    margin-left:311px;
+    /*margin-left:311px;*/
 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -110,17 +130,18 @@ flex-direction: row;
     line-height: 64px;
     text-align : center;
     color: #212B31;
+
+    padding-bottom: 15px;
 }
 
 .buttons {
     display: flex;
-    height:168px;
-    padding-top: 30px;  
-    
     justify-content: center;
+    height:168px;
+    padding-top: 15px;  
 }
 .button_demo_1{
-    width: 166px;
+    width: 172px;
     height: 50px;
     background-color:#212B31;
     border: 1px;
@@ -138,7 +159,7 @@ flex-direction: row;
 }
 .button_more{
 
-    width: 149px;
+    width: 172px;
     height: 50px;
     border-radius:4px;
     padding: 13px 25px 13px 25px;
@@ -165,5 +186,5 @@ flex-direction: row;
 }
 .Rectangle_2 {
     margin-top: 36px;
-    margin-left: 64px;
+   /* margin-left: 64px;*/
 }
