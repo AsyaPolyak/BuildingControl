@@ -1,3 +1,13 @@
+:root {
+    /*var(--primary_color)*/
+    --primary_h2_32: font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        color:#212B31;
+    
+}
+
 
 *,*::before,*::after {
     box-sizing: border-box;
@@ -263,15 +273,15 @@ body, .section_1 {
 .section_5 div {
     width: 542px;
 }
-
+/*
 .p1 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 48px;
-
     color:#212B31;
-}
+  
+}*/
 .p2 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -294,6 +304,9 @@ body, .section_1 {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.div_row {
+    padding: 10px 150px 10px 150px;
+}
 /*
 .section_6 div{
     display:flex;
@@ -307,3 +320,64 @@ body, .section_1 {
 .div_row img{
     margin-left: 10px;
 }*/
+
+/*section_7*/
+.section_7 {
+    width: 1056px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+ 
+}
+.what_is_construction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.what_is_construction h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color:#212B31;
+}
+.what_is_construction p{
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color:#72787D;
+
+    justify-content: center;
+    
+}
+
+.delivery, .control_optimazation, .real_time_mode{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.name_delivery h3, .name_real_time_mode h3, .name_control_optimization h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color:#212B31;
+
+}
+
+.name_real_time_mode p, .name_control_optimization p, .name_delivery p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#72787D;
+}
+.img_delivery, .img_real_time_mode, .img_control_optimization {
+
+}
